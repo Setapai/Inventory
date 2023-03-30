@@ -1,0 +1,40 @@
+.cs_Primary{
+  background-color: #4DB6AC;
+}
+.cs_Secondary{
+  background-color: #63d1c7;
+}
+
+.cs_btnAdd{
+  background-color: #63d1c7 ;
+  color: #fff;
+  transition: 0.5s;
+}
+.cs_btnAdd:hover{
+  background-color: #4DB6AC;
+  color: #fff;
+}
+.cs_btnExcel{
+    background-color: #8a8a8a;
+    color: #fff;
+    transition: 0.5s;
+}
+.cs_btnExcel:hover{
+  background-color: #0ba40b;
+  color: #fff;
+}
+
+
+/* .cs_bgTier{
+  background-color: #6D7FCC;
+}
+
+.cs_Primary{
+  color: #374480;
+}
+.cs_Secondary{
+  color: #A1B2FF;
+}
+.cs_Tier{
+  color: #6D7FCC;
+} */

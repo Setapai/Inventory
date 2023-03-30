@@ -1,0 +1,25 @@
+PDOException: SQLSTATE[HY000] [1049] Unknown database 'imanage' in C:\Program Files\Ampps\www\Imanage\services\db.php:13
+Stack trace:
+#0 C:\Program Files\Ampps\www\Imanage\services\db.php(13): PDO->__construct('mysql:host=loca...', 'root', 'mysql')
+#1 C:\Program Files\Ampps\www\Imanage\model\userControl\login.php(3): database()
+#2 C:\Program Files\Ampps\www\Imanage\controller\userControl\login.php(3): include_once('C:\\Program File...')
+#3 C:\Program Files\Ampps\www\Imanage\index.php(3): include('C:\\Program File...')
+#4 {main}PDOException: SQLSTATE[HY000] [1049] Unknown database 'imanage' in C:\Program Files\Ampps\www\imanage\services\db.php:13
+Stack trace:
+#0 C:\Program Files\Ampps\www\imanage\services\db.php(13): PDO->__construct('mysql:host=loca...', 'root', 'mysql')
+#1 C:\Program Files\Ampps\www\imanage\model\userControl\login.php(3): database()
+#2 C:\Program Files\Ampps\www\imanage\controller\userControl\login.php(3): include_once('C:\\Program File...')
+#3 C:\Program Files\Ampps\www\imanage\index.php(3): include('C:\\Program File...')
+#4 {main}PDOException: SQLSTATE[HY000] [1049] Unknown database 'imanage' in C:\Program Files\Ampps\www\i.manage\services\db.php:13
+Stack trace:
+#0 C:\Program Files\Ampps\www\i.manage\services\db.php(13): PDO->__construct('mysql:host=loca...', 'root', 'mysql')
+#1 C:\Program Files\Ampps\www\i.manage\model\userControl\login.php(3): database()
+#2 C:\Program Files\Ampps\www\i.manage\controller\userControl\login.php(3): include_once('C:\\Program File...')
+#3 C:\Program Files\Ampps\www\i.manage\index.php(3): include('C:\\Program File...')
+#4 {main}PDOException: SQLSTATE[HY000] [1049] Unknown database 'imanage' in C:\xampp\htdocs\i.manage\services\db.php:13
+Stack trace:
+#0 C:\xampp\htdocs\i.manage\services\db.php(13): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\i.manage\model\userControl\login.php(3): database()
+#2 C:\xampp\htdocs\i.manage\controller\userControl\login.php(3): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\i.manage\index.php(3): include('C:\\xampp\\htdocs...')
+#4 {main}
